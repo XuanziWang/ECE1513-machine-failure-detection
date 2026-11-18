@@ -54,4 +54,4 @@ X_train_scaled.to_csv("data/processed/X_train_scaled.csv", index=False)
 X_test_scaled.to_csv("data/processed/X_test_scaled.csv", index=False)
 
 y_train.to_csv("data/processed/y_train.csv", index=False)
-y_train.to_csv("data/processed/y_train.csv", index=False)
+y_test.to_csv("data/processed/y_test.csv", index=False)
