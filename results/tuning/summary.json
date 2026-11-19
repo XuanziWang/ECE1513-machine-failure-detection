@@ -1,0 +1,59 @@
+{
+  "selection_metric": "average_precision",
+  "cv_folds": 5,
+  "random_state": 1513,
+  "training_rows": 8000,
+  "training_failures": 271,
+  "sklearn_version": "1.8.0",
+  "threshold_metrics": "Precision, recall and F1 use each estimator's default decision threshold.",
+  "evaluation_scope": "Training cross-validation; scores are used for selection and need final held-out evaluation.",
+  "models": [
+    {
+      "model": "logistic_regression",
+      "best_parameters": {
+        "model__C": 1,
+        "model__class_weight": null
+      },
+      "mean_cv_average_precision": 0.47713046103765544,
+      "std_cv_average_precision": 0.026849468611418972,
+      "mean_cv_precision": 0.7590686274509804,
+      "std_cv_precision": 0.09953789001175253,
+      "mean_cv_recall": 0.20673400673400674,
+      "std_cv_recall": 0.04917900027863232,
+      "mean_cv_f1": 0.32415973325810865,
+      "std_cv_f1": 0.06923713201635304
+    },
+    {
+      "model": "rbf_svm",
+      "best_parameters": {
+        "model__C": 100,
+        "model__class_weight": null,
+        "model__gamma": "scale"
+      },
+      "mean_cv_average_precision": 0.7508174302638748,
+      "std_cv_average_precision": 0.02844673191267687,
+      "mean_cv_precision": 0.8024716191326673,
+      "std_cv_precision": 0.03033874195969625,
+      "mean_cv_recall": 0.6381818181818182,
+      "std_cv_recall": 0.05029658435480351,
+      "mean_cv_f1": 0.7095124768442846,
+      "std_cv_f1": 0.03282326458562687
+    },
+    {
+      "model": "random_forest",
+      "best_parameters": {
+        "model__class_weight": null,
+        "model__max_depth": null,
+        "model__min_samples_leaf": 1
+      },
+      "mean_cv_average_precision": 0.7886977944791023,
+      "std_cv_average_precision": 0.04152782484078888,
+      "mean_cv_precision": 0.9237103577063008,
+      "std_cv_precision": 0.029957412679029648,
+      "mean_cv_recall": 0.5090235690235689,
+      "std_cv_recall": 0.07663240489022567,
+      "mean_cv_f1": 0.6517259191930912,
+      "std_cv_f1": 0.06350766799157351
+    }
+  ]
+}

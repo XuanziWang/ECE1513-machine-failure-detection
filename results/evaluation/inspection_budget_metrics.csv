@@ -1,0 +1,4 @@
+model,policy,inspections,failures_caught,false_alarms,missed_failures,true_negatives,precision,recall,f1,average_precision
+logistic_regression,top_5_percent,100,39,61,29,1871,0.39,0.5735294117647058,0.4642857142857143,0.3708134308517029
+rbf_svm,top_5_percent,100,57,43,11,1889,0.57,0.8382352941176471,0.6785714285714286,0.7668494041938272
+random_forest,top_5_percent,100,57,43,11,1889,0.57,0.8382352941176471,0.6785714285714286,0.7898336521026205

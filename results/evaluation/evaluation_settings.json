@@ -1,0 +1,10 @@
+{
+  "test_observations": 2000,
+  "test_failures": 68,
+  "inspection_fraction": 0.05,
+  "inspection_count": 100,
+  "budget_rationale": "Illustrative 5% capacity assumption chosen before test evaluation.",
+  "tie_breaking": "Original test-row order, independent of labels.",
+  "score_types": "Positive-class probability for logistic regression and random forest; decision_function for SVM.",
+  "threshold_policy": "Estimator defaults for threshold metrics; exactly the highest-ranked 5% for budget metrics."
+}
