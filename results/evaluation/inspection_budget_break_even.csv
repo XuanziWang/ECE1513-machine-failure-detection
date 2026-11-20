@@ -1,0 +1,4 @@
+model,from_budget_percent,to_budget_percent,added_inspections,additional_failures_caught,break_even_missed_failure_cost_cad
+logistic_regression,5.0,10.0,100,8,1250.0
+rbf_svm,5.0,10.0,100,1,10000.0
+random_forest,5.0,10.0,100,3,3333.3333333333335
