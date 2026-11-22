@@ -1,0 +1,4 @@
+model_a,model_b,shared_flagged_observations,flagged_by_a_only,flagged_by_b_only,shared_detected_failures,shared_missed_failures,failures_detected_by_a_only,failures_detected_by_b_only
+logistic_regression,rbf_svm,61,39,39,38,10,1,19
+logistic_regression,random_forest,58,42,42,38,10,1,19
+rbf_svm,random_forest,81,19,19,57,11,0,0

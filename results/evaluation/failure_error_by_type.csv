@@ -1,0 +1,10 @@
+model,machine_type,records_in_type,actual_failures_in_type,flagged_for_inspection_in_type,failures_caught,missed_failures,false_alarms,recall_within_type
+logistic_regression,L,1240,52,78,31,21,47,0.5961538461538461
+logistic_regression,M,568,13,15,7,6,8,0.5384615384615384
+logistic_regression,H,192,3,7,1,2,6,0.3333333333333333
+rbf_svm,L,1240,52,72,45,7,27,0.8653846153846154
+rbf_svm,M,568,13,18,10,3,8,0.7692307692307693
+rbf_svm,H,192,3,10,2,1,8,0.6666666666666666
+random_forest,L,1240,52,69,45,7,24,0.8653846153846154
+random_forest,M,568,13,22,10,3,12,0.7692307692307693
+random_forest,H,192,3,9,2,1,7,0.6666666666666666

@@ -1,0 +1,4 @@
+model,inspection_percent,inspections,true_positives,false_positives,false_negatives,true_negatives,precision,recall,f1
+logistic_regression,5.0,100,39,61,29,1871,0.39,0.5735294117647058,0.46428571428571425
+rbf_svm,5.0,100,57,43,11,1889,0.57,0.8382352941176471,0.6785714285714286
+random_forest,5.0,100,57,43,11,1889,0.57,0.8382352941176471,0.6785714285714286
