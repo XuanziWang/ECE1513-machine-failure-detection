@@ -2,6 +2,10 @@
 
 Machine failure detection using sensor data to prioritize maintenance inspections.
 
+## Nov 23th
+Added model evaluation based on multiple seeds to calculate mean recall and std- inspired by Part 3a in assignment 4. 
+Conclusion: Across five random seeds, RBF SVM achieved the highest average recall (81.76%) at the 5% inspection capacity, followed closely by Random Forest (80.29%), while Logistic Regression achieved 54.41%. The inspection capacity analysis also showed a similar trend to the original single-seed results: increasing inspection capacity allowed more failures to be detected, but also led to more false alarms. Overall, the multi-seed analysis supports the conclusions from the original evaluation.
+
 ## By Nov 19th
 
 - Set up stratified five-fold cross-validation with scaling fitted inside each training fold.
