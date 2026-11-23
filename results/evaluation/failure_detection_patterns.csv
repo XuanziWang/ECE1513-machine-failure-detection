@@ -1,0 +1,9 @@
+detection_pattern,interpretation,actual_failure_count
+111,Detected by all three,38
+011,SVM + RF only,19
+100,Logistic Regression only,1
+110,Logistic Regression + SVM only,0
+101,Logistic Regression + RF only,0
+010,SVM only,0
+001,Random Forest only,0
+000,Missed by all three,10
