@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1513
+  ],
+  "completed_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1513
+  ],
+  "test_fraction": 0.2,
+  "cv_folds": 5,
+  "selection_metric": "average_precision",
+  "inspection_fractions": [
+    0.01,
+    0.03,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "primary_inspection_fraction": 0.05,
+  "dataset_sha256": "dc6630cd9b1f0f853922fad78a1b6436570d3f1ec863f1dd5c4340ac56bc8a8e",
+  "python_version": "3.14.2",
+  "package_versions": {
+    "numpy": "2.4.2",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8"
+  },
+  "source_row_definition": "Zero-based data-row index in data/ai4i2020.csv, excluding header.",
+  "variability": "Sample standard deviation across overlapping random splits; describes split variability."
+}
